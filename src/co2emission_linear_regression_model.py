@@ -4,7 +4,7 @@ import numpy as np
 from sklearn import linear_model
 from sklearn.metrics import r2_score
 
-path = "../../IbmMLProjects/raw_data/FuelConsumptionCo2.csv"
+path = "../raw_data/FuelConsumptionCo2.csv"
 
 df = pd.read_csv(path)
 
