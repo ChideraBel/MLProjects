@@ -58,4 +58,5 @@ for n in range(1, Ks):
 print(mean_acc)
 print("The best k number of neighbors: ", best_k)
 
+# Model is sensitive to test-split randomness, larger sets of data could help reduce this sensitivity
 final_neigh = KNeighborsClassifier(n_neighbors=best_k).fit(X_train, y_train.flatten)
