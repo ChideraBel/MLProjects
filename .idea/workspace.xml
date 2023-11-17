@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c030e8-bc00-431e-98d9-5adfb3355bc3" name="Changes" comment="add multi linear regression model for predicting co2emissions using 2 fuel consumption variables">
-      <change afterPath="$PROJECT_DIR$/raw_data/teleCust1000t.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer_classification_model.py" afterDir="false" />
+    <list default="true" id="97c030e8-bc00-431e-98d9-5adfb3355bc3" name="Changes" comment="add note about model sensitivity">
+      <change afterPath="$PROJECT_DIR$/raw_data/drug200.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decision_tree_classifier_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700064890329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add kNN classifier model to classify customers in categories">
+      <option name="closed" value="true" />
+      <created>1700114870436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700114870436</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add note about model sensitivity">
+      <option name="closed" value="true" />
+      <created>1700114960488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700114960488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add multi linear regression model for predicting co2emissions using 2 fuel consumption variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="add multi linear regression model for predicting co2emissions using 2 fuel consumption variables" />
+    <MESSAGE value="add kNN classifier model to classify customers in categories" />
+    <MESSAGE value="add note about model sensitivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add note about model sensitivity" />
   </component>
 </project>
