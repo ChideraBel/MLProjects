@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
 
 path = '../../raw_data/concrete_data.csv'
 concrete_data = pd.read_csv(path)
@@ -30,3 +33,6 @@ def regression_model():
     return model
 
 my_model = regression_model()
+
+#Train and test the model
+my_model.fit(predictors_norm, target, validation_split=0.3, epochs=100, verbos=2)
