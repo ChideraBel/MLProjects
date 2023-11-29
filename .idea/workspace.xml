@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c030e8-bc00-431e-98d9-5adfb3355bc3" name="Changes" comment="add decision tree classifier model to predict medicine for patients">
-      <change afterPath="$PROJECT_DIR$/raw_data/ChurnData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer_churn_logistic_regression_model.py" afterDir="false" />
+    <list default="true" id="97c030e8-bc00-431e-98d9-5adfb3355bc3" name="Changes" comment="add customer churn logistic regression model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700233675100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add customer churn logistic regression model">
+      <option name="closed" value="true" />
+      <created>1700277075211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700277075211</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +130,7 @@
     <MESSAGE value="add kNN classifier model to classify customers in categories" />
     <MESSAGE value="add note about model sensitivity" />
     <MESSAGE value="add decision tree classifier model to predict medicine for patients" />
-    <option name="LAST_COMMIT_MESSAGE" value="add decision tree classifier model to predict medicine for patients" />
+    <MESSAGE value="add customer churn logistic regression model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add customer churn logistic regression model" />
   </component>
 </project>

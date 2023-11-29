@@ -30,7 +30,7 @@ def init_network(num_inputs, num_hidden_layers, num_hidden_nodes_arr, num_output
     return network #return the network
 
 #create a network with function defined
-small_network = init_network(2, 3, [3,3,3], 1)
+small_network = init_network(5, 3, [3,3,3], 1)
 
 print(small_network)
 
@@ -58,4 +58,15 @@ def forward_propogate(network, inputs):
             node_data = layer_data[layer_node]
 
             #compute the wieghted sum and the node activation 
-            layer_outputs
+            node_output = node_activation(compute_weighted_sum(layer_inputs, node_data['weights'], node_data['bias']))
+            layer_outputs.append(np.around(node_output[0], decimals=4))
+            
+        if layer != 'output':
+            print('Output of {} is '.format(layer), layer_outputs)
+        #Set the output of this layer as the input of the next layer
+        layer_inputs = layer_outputs
+        
+    network_predictions = layer_outputs
+    return network_predictions
+
+print(forward_propogate(small_network, inputs))
